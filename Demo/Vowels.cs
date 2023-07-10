@@ -21,7 +21,8 @@ namespace Demo
             int count = frequency[Convert.ToInt32('a' - 'a')] + frequency[Convert.ToInt32('e' - 'a')] +
                 frequency[Convert.ToInt32('i' - 'a')] + frequency[Convert.ToInt32('o' - 'a')] +
                 frequency[Convert.ToInt32('u' - 'a')];
-            Console.WriteLine(count);
+            Console.WriteLine("Number 0f vowel in the string :"+count);
+            Console.WriteLine("Number 0f Consonent in the string :"+(input.Length-count));
 
 
         }
