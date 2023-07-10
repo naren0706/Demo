@@ -2,10 +2,10 @@
 
 namespace Demo
 {
-    class Demo
+    class Program
 
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             bool flag = true;
             while (flag)
@@ -18,6 +18,10 @@ namespace Demo
                         break;
                     case 2:
                         Swap.swap();
+                        break;
+
+                    case 3:
+                        Vowels.VowelCount();
                         break;
                     default: 
                         flag = false;

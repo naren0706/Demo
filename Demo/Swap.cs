@@ -16,8 +16,8 @@ namespace Demo
             int b = Convert.ToInt32(Console.ReadLine());
 
             a = a + b;
-            b=a-b;
-            a= a - b;
+            b = a - b;
+            a = a - b;
 
             Console.WriteLine(a+" "+b);
 
